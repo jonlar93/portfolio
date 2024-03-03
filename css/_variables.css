@@ -1,0 +1,23 @@
+:root {
+  /* sizes 
+    ============================================================== */
+  --full-width: min(1500px, 90%);
+  --small-width: min(1200px, 100%);
+  --height-content: 90dvh;
+
+  /* colors 
+  ================================================================= */
+  --color-body: #74717a;
+  --color-primary: rgb(28, 28, 28);
+  --color-secondary: rgb(44, 18, 93);
+
+  --color-text-primary: #e1d0d0;
+  --color--text-secondary: #000000;
+
+  /* font-family
+  ================================================================== */
+  --font-family-headings: "oswald";
+  --font-family-base: "open sans";
+  --font-family-primary-fallback: "sans-serif";
+  --font-family-secondary-fallback: "Arial";
+}

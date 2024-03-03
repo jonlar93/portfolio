@@ -1,0 +1,13 @@
+.flex_center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_dimensions {
+  min-height: var(--height-content);
+  padding: 20px;
+  background-color: var(--color-primary);
+  width: var(--full-width);
+  margin-inline: auto;
+}

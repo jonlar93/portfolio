@@ -1,0 +1,32 @@
+body {
+  background-color: var(--color-body);
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--color-secondary);
+  height: 10dvh;
+  max-height: 120px;
+}
+
+.header_wrapper,
+.footer_wrapper {
+  width: var(--full-width);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}

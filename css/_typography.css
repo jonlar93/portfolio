@@ -1,0 +1,45 @@
+/* typography */
+
+body {
+  font-family: var(--font-family-base), var(--font-family-primary-fallback), var(--font-family-secondary-fallback);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-headings), var(--font-family-primary-fallback), var(--font-family-secondary-fallback);
+  text-align: center;
+  text-transform: capitalize;
+  text-wrap: balance;
+  padding: 10px;
+}
+
+p {
+  font-family: var(--font-family-base), var(--font-family-primary-fallback), var(--font-family-secondary-fallback);
+  line-height: 1.5;
+  hyphens: auto;
+  font-size: 16px;
+  max-width: 75ch;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--color-text-primary);
+}
+
+button {
+  color: var(--color-text-primary);
+  text-transform: capitalize;
+}
+
+nav > ul > li {
+  font-family: var(--font-family-headings), var(--font-family-primary-fallback), var(--font-family-secondary-fallback);
+  text-transform: capitalize;
+}
+
+a {
+  color: var(--color-text-primary);
+  font-family: inherit;
+}

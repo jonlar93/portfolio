@@ -1,0 +1,23 @@
+@media (max-width: 900px) {
+  .section_dimensions {
+    width: var(--full-width-small);
+  }
+}
+
+@media (min-width: 1335px) {
+  .scroll_snap {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    height: 90dvh;
+  }
+
+  main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .snap {
+    scroll-snap-align: start;
+  }
+}

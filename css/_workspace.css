@@ -1,0 +1,104 @@
+/* hero 
+================================================================ */
+
+.hero {
+  background-image: url(/images/texture/dark-bl1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: difference;
+}
+
+.hero_content-wrapper {
+  background-color: rgba(34, 6, 104, 0.89);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px rgb(237, 237, 237) solid;
+  gap: 30px;
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.hero a {
+  background-color: rgb(7, 3, 26);
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.profile-img-wrapper {
+  max-height: 300px;
+  width: auto;
+  border-radius: 50%;
+  border: 2px rgb(57, 50, 129) solid;
+  overflow: hidden;
+  aspect-ratio: 1;
+  background: radial-gradient(circle, rgb(76, 79, 91) 0%, rgb(34, 82, 106) 100%);
+}
+
+.profile-img-wrapper > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1;
+  filter: drop-shadow(26px -23px 8px #202020);
+}
+
+.hero_content-wrapper p {
+  text-wrap: balance;
+  text-align: center;
+}
+
+/* projects
+================================================================ */
+
+.projects {
+  flex-direction: column;
+}
+
+.project_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+}
+
+.project_card {
+  background: #3a3c3c;
+  border-radius: 15px;
+  border: solid 1px white;
+}
+
+.project_card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  border-bottom: solid 2px rgb(150, 150, 150);
+}
+
+.project_card > p {
+  text-wrap: balance;
+  padding: 20px;
+  text-align: center;
+}
+
+.card_used-lang {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  background: var(--color-primary);
+}
+
+.project_card :nth-child(5) {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 15px;
+}
