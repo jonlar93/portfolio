@@ -11,3 +11,7 @@
   width: var(--full-width);
   margin-inline: auto;
 }
+
+main {
+  background: linear-gradient(0deg, rgba(14, 14, 14, 1) 0%, rgba(56, 55, 55, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
