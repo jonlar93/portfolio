@@ -22,11 +22,30 @@ footer {
   width: var(--full-width);
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 30px;
+}
+
+.header_wrapper {
+  justify-content: space-between;
+}
+
+.footer_wrapper {
+  justify-content: center;
 }
 
 nav ul {
   display: flex;
   gap: 20px;
+}
+
+.header_wrapper p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header_wrapper a {
+  font-size: 30px;
+  font-weight: 500;
 }

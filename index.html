@@ -13,15 +13,15 @@
   <body>
     <header>
       <div class="header_wrapper">
-        <a href="#">
+        <a href="#home">
           <p>Jonas / dev</p>
         </a>
         <nav id="nav">
           <ul>
-            <li><a href="/#">home</a></li>
-            <li><a href="/#">projects</a></li>
-            <li><a href="/#">about</a></li>
-            <li><a href="/#">contact</a></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
         </nav>
       </div>
@@ -30,27 +30,27 @@
     <div class="scroll_snap">
       <main>
         <section class="hero flex_center-center section_dimensions snap">
-          <div class="hey">
+          <div class="hero_card-wrapper">
             <div class="hero_content-wrapper">
-              <h1>Jonas Larsen</h1>
+              <h1 id="home">Jonas Larsen</h1>
               <div class="profile-img-wrapper">
                 <img src="/images/portfolio.png" alt="portrait img of me" />
               </div>
               <p>"Passionate, emerging web developer, sharpening skills at Noroff!"</p>
-              <a href="#">contact me</a>
+              <a href="#contact">contact me</a>
             </div>
           </div>
         </section>
         <section class="section_dimensions flex_center-center projects snap">
-          <h1>my projects</h1>
+          <h1 id="projects">my projects</h1>
           <div class="project_wrapper">
             <article class="project_card">
               <img src="/images/project/gamhub.PNG" alt="image of gamehubs website" />
               <h2>gamehub</h2>
               <div class="card_used-lang">
-                <p>html</p>
-                <p>css</p>
-                <p>js</p>
+                <img src="/images/icons/html.png" alt="html logo" />
+                <img src="/images/icons/css.png" alt="css logo" />
+                <img src="/images/icons/javascript.png" alt="js logo" />
               </div>
               <p>my first project at noroff, that we built up slowly as we learned new languages. the site is an ecommerce website for games</p>
               <div>
@@ -62,8 +62,8 @@
               <img src="/images/project/comunity-sciense.PNG" alt="image of gamehubs website" />
               <h2>community science museum</h2>
               <div class="card_used-lang">
-                <p>html</p>
-                <p>css</p>
+                <img src="/images/icons/html.png" alt="html logo" />
+                <img src="/images/icons/css.png" alt="css logo" />
               </div>
               <p>this was my semester project from noroff. the website is for a interactive science museum that caters to children and their parents.</p>
               <div>
@@ -75,11 +75,11 @@
               <img src="/images/project/board-buddy.PNG" alt="image of gamehubs website" />
               <h2>board buddy</h2>
               <div class="card_used-lang">
-                <p>html</p>
-                <p>css</p>
-                <p>js</p>
+                <img src="/images/icons/html.png" alt="html logo" />
+                <img src="/images/icons/css.png" alt="css logo" />
+                <img src="/images/icons/javascript.png" alt="js logo" />
               </div>
-              <p>this was my project exam from noroff. the website is a blog that caters to new and advanced snowboarders.</p>
+              <p>this was my project exam from noroff. the website is a blog for new and advanced snowboarders and offers guides for both.</p>
               <div>
                 <a href="https://board-buddy-exam.netlify.app/" target="_blank">live link</a>
                 <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-jonlar93" target="_blank">github repo</a>
@@ -87,17 +87,28 @@
             </article>
           </div>
         </section>
-        <section class="flex_center-center section_dimensions snap">
-          <div class="about_wrapper">
+        <section class="flex_center-center section_dimensions snap" id="about">
+          <div>
             <h2>about me</h2>
             <p>my name is Jonas Larsen. im currently living in skien, and ive worked as a car mechanic and construction earlier. before i decided i needed a change in my life, and found web development to be an exciting challenge to be my first stepping stone into tech. and started my studies at noroff school of technology in march 2023,</p>
+          </div>
+        </section>
+        <section class="flex_center-center section_dimensions snap" id="contact">
+          <div class="contact_wrapper">
+            <h2>contact me</h2>
+            <p>contact me trough social media if you want to colaborate. and email if you want to hire me for a project or employment.</p>
+            <h2>e-mail: jonas_larsen1@outlook.com</h2>
+            <div class="social">
+              <a href="https://facebook.com/" target="_blank"><img src="/images/icons/facebook.png" alt="facebook logo" /></a>
+              <a href="https://linkedin.com/" target="_blank"><img src="/images/icons/linkedin.png" alt="linkedin logo" /></a>
+              <a href="https://github.com/" target="_blank"><img src="/images/icons/github.png" alt="github logo" /></a>
+            </div>
           </div>
         </section>
       </main>
       <footer class="snap">
         <div class="footer_wrapper">
-          <p>footer</p>
-          <p>footer</p>
+          <p>&copy; Jonas/dev 2024</p>
         </div>
       </footer>
     </div>

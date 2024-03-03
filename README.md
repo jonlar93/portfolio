@@ -1,6 +1,6 @@
 # jonas/dev portfolio
 
-![image](/images/project/addCorrectLinkHere)
+![image](/images/portfoli.PNG)
 
 my porfolio
 
