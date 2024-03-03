@@ -40,4 +40,4 @@ you can reach me on [My LinkedIn page](www.linkedin.com)
 
 ## live site
 
-the site is deployed on netlify. you can see the live [page](https://developer.mozilla.org/en-US/docs/Web/CSS)
+the site is deployed on netlify. you can see the live [page](https://jonas-noroff-portfolio.netlify.app/)
